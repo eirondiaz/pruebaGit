@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getBaseContext(), "Funciona correctamente", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getBaseContext(), "Funciona correctamente ", Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent(getBaseContext(), Segundo_activity.class);
                 startActivity(intent);
